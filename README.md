@@ -1,9 +1,9 @@
 # HealthSat_Remote_Health_Monitoring
 An IoT and satellite communication prototype that enables real-time health monitoring and emergency alerts in rural areas.
 
-🛰️ HealthSat – A Remote Health Monitoring Communication Satellite
+### 🛰️ HealthSat – A Remote Health Monitoring Communication Satellite
 
-Overview:
+### Overview:
 
 HealthSat is a satellite-based IoT system designed to provide reliable and continuous health monitoring for people living in remote and rural areas.  
 It uses wearable sensors and long-range communication technologies to detect abnormal health conditions and send emergency alerts to nearby hospitals — even in regions without internet or mobile network coverage.
