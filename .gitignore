@@ -1,8 +1,0 @@
-# Ignore system and temporary files
-__pycache__/
-.DS_Store
-*.pyc
-venv/
-build/
-*.bin
-
