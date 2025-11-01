@@ -4,15 +4,18 @@ An IoT and satellite communication prototype that enables real-time health monit
 🛰️ HealthSat – A Remote Health Monitoring Communication Satellite
 
 Overview
+
 HealthSat is a satellite-based IoT system designed to provide reliable and continuous health monitoring for people living in remote and rural areas.  
 It uses wearable sensors and long-range communication technologies to detect abnormal health conditions and send emergency alerts to nearby hospitals — even in regions without internet or mobile network coverage.
 
 Problem Statement
+
 Access to healthcare is a major challenge in rural and remote areas due to limited hospitals and poor communication infrastructure.  
 During medical emergencies, delays in reaching healthcare services can lead to preventable fatalities.  
 **HealthSat** addresses this issue by using IoT devices and satellite communication to ensure that critical health data reaches hospitals in real time.
 
 Proposed Solution
+
 The proposed system integrates:
 - ESP32 Microcontroller** for data processing  
 - MAX30102 Pulse Oximeter Sensor for real-time heart rate and SpO₂ monitoring  
@@ -22,12 +25,14 @@ The proposed system integrates:
 When an abnormal pulse or oxygen level is detected, an **alert message with GPS coordinates** is transmitted via LoRa or satellite to the nearest hospital, enabling quick medical intervention.
 
 System Architecture
+
 1. Wearable Device Layer: Collects real-time health parameters.  
 2. Communication Layer: Transmits data via LoRa/Satellite networks.  
 3. Cloud Layer: Stores data for access and analysis.  
 4. Hospital Dashboard: Displays alerts and patient status to medical teams.  
 
 Technologies Used
+
 | Component | Technology / Module |
 |------------|----------------------|
 | Microcontroller | ESP32 (DevKit V1) |
@@ -38,6 +43,7 @@ Technologies Used
 | Cloud Platform | Firebase / ThingsBoard |
 
 Code Overview
+
 
 Sender Code (ESP32)
 - File: `/code/sender/sender_esp32
@@ -52,6 +58,7 @@ Sender Code (ESP32)
 
 
 Streamlit Dashboard
+
 The HealthSat Dashboard is built using Streamlit, a lightweight Python framework for creating interactive web apps.  
 It allows hospitals and healthcare professionals to view patient vitals in real-time, including heart rate, SpO₂, and alerts.
 
