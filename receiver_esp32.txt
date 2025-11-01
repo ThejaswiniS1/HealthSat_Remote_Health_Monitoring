@@ -1,0 +1,81 @@
+#include <SPI.h>
+#include <LoRa.h>
+
+// --- LoRa Pin Definitions ---
+#define LORA_SCK 18
+#define LORA_MISO 19
+#define LORA_MOSI 23
+#define LORA_CS 5
+#define LORA_RST 14
+#define LORA_DIO0 2
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("LoRa Receiver");
+
+  // LORA SETUP
+  LoRa.setPins(LORA_CS, LORA_RST, LORA_DIO0);
+  // Set frequency to 866MHz. MUST match the sender's frequency.
+  if (!LoRa.begin(866E6)) {
+    Serial.println("Starting LoRa failed!");
+    while (1);
+  }
+  Serial.println("LoRa Ready. Waiting for data...");
+}
+
+void loop() {
+  // Check if a packet has been received
+  int packetSize = LoRa.parsePacket();
+  if (packetSize) {
+    // Received a packet!
+    String receivedData = "";
+    while (LoRa.available()) {
+      receivedData += (char)LoRa.read();
+    }
+    
+    Serial.print("Received packet: '");
+    Serial.print(receivedData);
+    Serial.print("' with RSSI "); // RSSI is the signal strength
+    Serial.println(LoRa.packetRssi());
+  
+#include <SPI.h>
+#include <LoRa.h>
+
+// --- LoRa Pin Definitions ---
+#define LORA_SCK 18
+#define LORA_MISO 19
+#define LORA_MOSI 23
+#define LORA_CS 5
+#define LORA_RST 14
+#define LORA_DIO0 2
+
+void setup() {
+  Serial.begin(9600);
+  Serial.println("LoRa Receiver");
+
+  // LORA SETUP
+  LoRa.setPins(LORA_CS, LORA_RST, LORA_DIO0);
+  // Set frequency to 866MHz. MUST match the sender's frequency.
+  if (!LoRa.begin(866E6)) {
+    Serial.println("Starting LoRa failed!");
+    while (1);
+  }
+  Serial.println("LoRa Ready. Waiting for data...");
+}
+
+void loop() {
+  // Check if a packet has been received
+  int packetSize = LoRa.parsePacket();
+  if (packetSize) {
+    // Received a packet!
+    String receivedData = "";
+    while (LoRa.available()) {
+      receivedData += (char)LoRa.read();
+    }
+    
+    Serial.print("Received packet: '");
+    Serial.print(receivedData);
+    Serial.print("' with RSSI "); // RSSI is the signal strength
+    Serial.println(LoRa.packetRssi());
+  }
+}
