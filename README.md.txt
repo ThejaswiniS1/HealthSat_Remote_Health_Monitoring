@@ -1,6 +1,6 @@
 # 🛰️ HealthSat – A Remote Health Monitoring Communication Satellite
 
-## 📘 Overview
+📘 Overview
 **HealthSat** is a satellite-based IoT system designed to provide reliable and continuous health monitoring for people living in remote and rural areas.  
 It uses wearable sensors and long-range communication technologies to detect abnormal health conditions and send emergency alerts to nearby hospitals — even in regions without internet or mobile network coverage.
 
@@ -76,4 +76,5 @@ It allows hospitals and healthcare professionals to **view patient vitals in rea
 cd dashboard_streamlit
 pip install -r requirements.txt
 streamlit run app.py
+
 
