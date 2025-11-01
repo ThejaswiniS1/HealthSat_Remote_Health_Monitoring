@@ -1,0 +1,9 @@
+HealthSat Hardware Components List
+
+1. ESP32 DevKit V1
+2. LoRa SX1276 Module (Transmitter & Receiver)
+3. MAX30105 Pulse Oximeter Sensor
+4. Jumper Wires (Male-to-Male and Female-to-Female)
+5. Breadboard / PCB Board
+6. Power Source (USB) 
+
