@@ -12,7 +12,6 @@ The proposed system uses an ESP32 microcontroller with a MAX30105 sensor to coll
 4. Advantages
 - Real-time continuous health monitoring  
 - Reliable communication without internet dependency  
-- Low power consumption  
 - Quick emergency response through hospital alerts  
 - Scalable deployment across remote villages
 
@@ -24,3 +23,4 @@ HealthSat provides a reliable, cost-effective, and scalable solution for remote 
 
 7. Future Enhancements
 Integration of temperature and ECG sensors, cloud-based health analytics, and AI-driven early disease detection modules.
+
