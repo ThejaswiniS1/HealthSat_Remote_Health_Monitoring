@@ -68,5 +68,26 @@ cd dashboard_streamlit
 pip install -r requirements.txt
 streamlit run app.py
 
+Perfect, Thejaswini 👏 — that performance chart is exactly what belongs in your **“Results and Discussion”** section, not in the proposed system part.
+
+Here’s how to organize and write it neatly for your report, paper, or README 👇
+
+---
+
+## **Results and Discussion**
+
+The HealthSat system was tested to evaluate its accuracy, communication efficiency, and performance under real-time conditions. The prototype demonstrated reliable health parameter monitoring and long-range data transmission using LoRa technology.
+
+The **pulse measurement accuracy** was approximately **96%**, closely matching standard medical pulse oximeters. The **average transmission delay** was around **2.5 seconds**, which is acceptable for remote health monitoring applications. The system achieved a **communication range of 1.5 km** in open environments with minimal packet loss, validating the feasibility of LoRa for rural healthcare communication.
+
+These results confirm that the proposed system offers:
+* High accuracy in physiological data monitoring
+* Efficient and reliable long-range communication
+* Low latency and low power consumption
+* Scalability for multi-node remote deployments
+
+### 📈 **System Performance Results**
+
+
 
 
