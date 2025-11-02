@@ -111,7 +111,7 @@ These results confirm that the proposed system offers:
 
 
 
-*🌍 By turning connectivity into care, **HealthSat** transforms how healthcare reaches people — making distance no longer a barrier to saving lives🫀.*
+*🌍 By turning connectivity into care,**HealthSat** transforms how healthcare reaches people — making distance no longer a barrier to saving lives🫀.*
 
 ## Team Members
 * **Tushar S** (1VA22IS109)
