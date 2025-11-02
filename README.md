@@ -1,5 +1,5 @@
 
-# 🛰️ HealthSat – Remote Health Monitoring Communication Satellite
+# 🛰️ HealthSat – A Remote Health Monitoring Communication Satellite
 
 An IoT and satellite communication prototype that enables real-time health monitoring and emergency alerts in rural and remote areas.
 
@@ -26,7 +26,7 @@ The system includes the following modules:
 
 When abnormal health parameters are detected, the ESP32 processes and encodes the data, transmits it via LoRa to the receiver at the hospital, and displays it on the dashboard. This ensures continuous monitoring and timely emergency response.
 
-## ⚙️ Proposed System
+## Proposed System
 
 The proposed system architecture is divided into multiple layers:
 
@@ -38,7 +38,7 @@ The proposed system architecture is divided into multiple layers:
 ### System Flow Diagram
 
 ![Proposed System Architecture](https://github.com/ThejaswiniS1/HealthSat_Remote_Health_Monitoring/blob/main/HealthSat_Proposed_System_Diagram.jpg)  
-*Figure 1: Data flow and communication structure of the HealthSat proposed system.
+*Figure 1: Data flow and communication structure of the HealthSat proposed system.*
 
 ## 🧠 Technologies Used
 
@@ -90,7 +90,7 @@ The prototype demonstrated reliable health parameter monitoring and long-range d
 
 **Table 1:** System performance results of the *HealthSat* prototype.
 
-###System Performance Results
+### System Performance Results
 
 ![HealthSat System Performance Metrics](https://github.com/ThejaswiniS1/HealthSat_Remote_Health_Monitoring/blob/main/HealthSat_Performance_Results.jpg)
 *Figure 2: Performance metrics of the HealthSat prototype system.*
@@ -118,6 +118,3 @@ These results confirm that the proposed system offers:
 **Sai Vidya Institute of Technology, Bengaluru**
 
 
-
-Would you like me to make a **short version (1-minute summary block)** for the top — just for judges to read quickly before the detailed sections?
-```
