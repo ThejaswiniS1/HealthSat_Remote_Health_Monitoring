@@ -78,4 +78,5 @@ void loop() {
     Serial.print("' with RSSI "); // RSSI is the signal strength
     Serial.println(LoRa.packetRssi());
   }
+
 }
