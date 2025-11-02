@@ -14,14 +14,12 @@ During medical emergencies, delays in reaching healthcare services can lead to p
 **HealthSat** addresses this issue by using IoT devices and satellite communication to ensure that critical health data reaches hospitals in real time.
 
 ### Proposed Solution
-The proposed system integrates:
-- ESP32 Microcontroller** for data processing  
-- MAX30102 Pulse Oximeter Sensor for real-time heart rate and SpO₂ monitoring  
-- LoRa (SX1276)** for long-range, low-power data transmission  
-- Web Dashboard (Streamlit, Python) for hospital monitoring  
-
-When an abnormal pulse or oxygen level is detected, an alert message with GPS coordinates is transmitted via LoRa or satellite to the nearest hospital, enabling quick medical intervention.
-
+1. The system integrates the following modules:
+2. ESP32 Microcontroller: Performs data processing and communication control.
+3. MAX30102 Pulse Oximeter Sensor: Measures heart rate and SpO₂ levels continuously.
+4. LoRa (SX1276) Transmitter & Receiver: Ensures long-range, low-power communication between the patient unit and hospital base station, even without internet or mobile connectivity.
+5. Streamlit-Based Hospital Dashboard: Provides real-time visualization and alerts for abnormal readings, enabling healthcare professionals to act quickly.
+When abnormal health parameters are detected, the ESP32 processes and encodes the data, transmits it via LoRa to the receiver at the hospital, and displays it on the dashboard. This ensures continuous monitoring and timely emergency response.
 ### System Architecture
 1. Wearable Device Layer: Collects real-time health parameters.  
 2. Communication Layer: Transmits data via LoRa/Satellite networks.  
