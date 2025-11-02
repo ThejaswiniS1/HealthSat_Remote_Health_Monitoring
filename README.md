@@ -40,7 +40,7 @@ The proposed system architecture is divided into multiple layers:
 ![Proposed System Architecture](https://github.com/ThejaswiniS1/HealthSat_Remote_Health_Monitoring/blob/main/HealthSat_Proposed_System_Diagram.jpg)  
 *Figure 1: Data flow and communication structure of the HealthSat proposed system.*
 
-## 🧠 Technologies Used
+## Technologies Used
 
 | Component | Technology / Module |
 |------------|----------------------|
@@ -109,8 +109,9 @@ These results confirm that the proposed system offers:
 * Development of a mobile app for doctor–patient communication
 * Integration with government rural healthcare networks
 
-*🌍 By turning connectivity into care, **HealthSat** transforms how healthcare reaches people — making distance no longer a barrier to saving lives🫀.*
 
+
+*🌍 By turning connectivity into care, **HealthSat** transforms how healthcare reaches people — making distance no longer a barrier to saving lives🫀.*
 
 ## Team Members
 * **Tushar S** (1VA22IS109)
