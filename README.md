@@ -62,18 +62,6 @@ Features
 - Historical plotting of heart rate  
 - Works offline using sample data  
 
-How to Run
-```bash
-cd dashboard_streamlit
-pip install -r requirements.txt
-streamlit run app.py
-
-Perfect, Thejaswini 👏 — that performance chart is exactly what belongs in your **“Results and Discussion”** section, not in the proposed system part.
-
-Here’s how to organize and write it neatly for your report, paper, or README 👇
-
----
-
 ## **Results and Discussion**
 
 The HealthSat system was tested to evaluate its accuracy, communication efficiency, and performance under real-time conditions. The prototype demonstrated reliable health parameter monitoring and long-range data transmission using LoRa technology.
