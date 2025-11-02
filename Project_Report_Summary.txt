@@ -1,0 +1,26 @@
+HealthSat – Project Report Summary
+
+1. Introduction
+HealthSat is an IoT and satellite-based communication project designed to bring healthcare connectivity to rural communities. It aims to monitor vital health parameters remotely and alert hospitals during medical emergencies.
+
+2. Problem Statement
+Rural areas often lack proper medical infrastructure and internet coverage, leading to delayed healthcare services. There is a need for a low-cost, low-power health monitoring solution that can operate beyond cellular networks.
+
+3. Proposed System
+The proposed system uses an ESP32 microcontroller with a MAX30105 sensor to collect heart rate and oxygen saturation data. Data is transmitted through LoRa (SX1276) modules to a receiver unit connected to a Streamlit dashboard. The dashboard visualizes patient vitals and triggers alerts when abnormal readings are detected.
+
+4. Advantages
+- Real-time continuous health monitoring  
+- Reliable communication without internet dependency  
+- Low power consumption  
+- Quick emergency response through hospital alerts  
+- Scalable deployment across remote villages
+
+5. Results and Discussion
+The prototype successfully transmitted heart rate and IR sensor readings via LoRa up to several hundred meters. The Streamlit dashboard visualized the data effectively, demonstrating system feasibility for real-world use.
+
+6. Conclusion
+HealthSat provides a reliable, cost-effective, and scalable solution for remote health monitoring. It can bridge the healthcare access gap in underserved regions and can be expanded to include additional vital sensors in future work.
+
+7. Future Enhancements
+Integration of temperature and ECG sensors, cloud-based health analytics, and AI-driven early disease detection modules.
