@@ -19,6 +19,7 @@ During medical emergencies, delays in reaching healthcare services can lead to p
 3. MAX30102 Pulse Oximeter Sensor: Measures heart rate and SpO₂ levels continuously.
 4. LoRa (SX1276) Transmitter & Receiver: Ensures long-range, low-power communication between the patient unit and hospital base station, even without internet or mobile connectivity.
 5. Streamlit-Based Hospital Dashboard: Provides real-time visualization and alerts for abnormal readings, enabling healthcare professionals to act quickly.
+
 When abnormal health parameters are detected, the ESP32 processes and encodes the data, transmits it via LoRa to the receiver at the hospital, and displays it on the dashboard. This ensures continuous monitoring and timely emergency response.
 ### System Architecture
 1. Wearable Device Layer: Collects real-time health parameters.  
