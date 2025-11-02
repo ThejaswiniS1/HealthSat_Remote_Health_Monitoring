@@ -76,6 +76,6 @@ These results confirm that the proposed system offers:
 
 ### 📈 **System Performance Results**
 
-https://github.com/ThejaswiniS1/HealthSat_Remote_Health_Monitoring/blob/main/HealthSat_Performance_Results.jpg
+![HealthSat System Performance Metrics](https://github.com/ThejaswiniS1/HealthSat_Remote_Health_Monitoring/blob/main/HealthSat_Performance_Results.jpg)
 
 
