@@ -109,6 +109,9 @@ These results confirm that the proposed system offers:
 * Development of a mobile app for doctor–patient communication
 * Integration with government rural healthcare networks
 
+*🌍 By turning connectivity into care, **HealthSat** transforms how healthcare reaches people — making distance no longer a barrier to saving lives🫀.*
+
+
 ## Team Members
 * **Tushar S** (1VA22IS109)
 * **Tangirala Ruthu** (1VA22IS105)
