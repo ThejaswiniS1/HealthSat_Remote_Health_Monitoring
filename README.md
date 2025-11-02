@@ -115,7 +115,7 @@ These results confirm that the proposed system offers:
 * **Thejaswini S** (1VA22IS108)
 * **Vaishnavi** (1VA22IS114)
   
-**Department of Information Science and Engineering**
+**Department of Information Science and Engineering**,
 **Sai Vidya Institute of Technology, Bengaluru**
 
 
