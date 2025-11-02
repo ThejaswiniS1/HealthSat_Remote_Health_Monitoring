@@ -1,6 +1,13 @@
 MIT License
 
-Copyright (c) 2025 HealthSat Team
+Copyright (c) 2025 Team HealthSat
+Sai Vidya Institute of Technology, Bengaluru
+
+Developed by:
+- Tushar S (1VA22IS109)
+- Thejaswini S (1VA22IS108)
+- Tangirala Ruthu (1VA22IS105)
+- Vaishnavi (1VA22IS114)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
