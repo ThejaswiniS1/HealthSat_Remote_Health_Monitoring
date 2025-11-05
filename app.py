@@ -9,18 +9,12 @@ import time
 from datetime import datetime
 import altair as alt
 
-# -----------------------------------------------
-# 🎨 Page Configuration
-# -----------------------------------------------
 st.set_page_config(
     page_title="HealthSat Remote Health Monitoring",
     page_icon="🩺",
     layout="wide"
 )
 
-# -----------------------------------------------
-# 🩺 Title and Header
-# -----------------------------------------------
 st.title("🩺 HealthSat - Remote Health Monitoring Dashboard")
 st.markdown("""
 Welcome to **HealthSat**, an IoT-based remote health monitoring system designed for real-time 
@@ -28,33 +22,24 @@ tracking of vital parameters such as heart rate and SpO₂.
 This demo simulates sensor readings and displays them on a hospital dashboard for monitoring and alerting.
 """)
 
-# -----------------------------------------------
-# ⚙️ Sidebar - Controls
-# -----------------------------------------------
+
 st.sidebar.header("🔧 Dashboard Controls")
 refresh_rate = st.sidebar.slider("Data refresh rate (seconds):", 1, 10, 2)
 alert_threshold_hr_low = st.sidebar.number_input("Low Heart Rate Threshold (BPM):", 40, 100, 50)
 alert_threshold_hr_high = st.sidebar.number_input("High Heart Rate Threshold (BPM):", 100, 200, 120)
 alert_threshold_spo2 = st.sidebar.number_input("SpO₂ Alert Threshold (%):", 80, 100, 92)
 
-# -----------------------------------------------
-# 📊 Simulated Live Data Function
-# -----------------------------------------------
 def generate_data():
     hr = np.random.randint(60, 110)
     spo2 = np.random.randint(90, 100)
     return hr, spo2
 
-# Store data for graphing
+
 if "data" not in st.session_state:
     st.session_state.data = pd.DataFrame(columns=["Time", "Heart Rate", "SpO₂"])
-
-# -----------------------------------------------
-# 🔄 Real-time Update Loop
-# -----------------------------------------------
 placeholder = st.empty()
 
-for i in range(50):  # simulate 50 readings
+for i in range(50): 
     hr, spo2 = generate_data()
     current_time = datetime.now().strftime("%H:%M:%S")
     new_row = pd.DataFrame({"Time": [current_time], "Heart Rate": [hr], "SpO₂": [spo2]})
@@ -68,9 +53,6 @@ for i in range(50):  # simulate 50 readings
         alert_status = "✅ Normal"
         alert_color = "green"
 
-    # -----------------------------------------------
-    # 📋 Layout - 2 Columns
-    # -----------------------------------------------
     with placeholder.container():
         col1, col2 = st.columns(2)
 
@@ -84,7 +66,6 @@ for i in range(50):  # simulate 50 readings
             st.markdown(f"### 🧠 Current Status: <span style='color:{alert_color}'>{alert_status}</span>", unsafe_allow_html=True)
             st.markdown(f"Last updated: **{current_time}**")
 
-        # Graphs
         st.markdown("### 📈 Real-Time Vital Graphs")
         chart_hr = (
             alt.Chart(st.session_state.data)
@@ -103,3 +84,4 @@ for i in range(50):  # simulate 50 readings
         time.sleep(refresh_rate)
 
 st.success("✅ Simulation complete - Dashboard ready for demo.")
+
